@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-30T08:23:35.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="7nJa-VJjLg_ueEK5Olf4" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-30T08:42:04.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="N8AsZkTys8NBk5g3VkY-" version="17.4.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="925" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,6 +244,55 @@
               <mxPoint x="720" y="639" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kgoztRFqhiUVIx0Ld4v4-66" target="kgoztRFqhiUVIx0Ld4v4-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="474" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-66" value="Socket listener&lt;br&gt;(with plugin)" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="890" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kgoztRFqhiUVIx0Ld4v4-68" target="kgoztRFqhiUVIx0Ld4v4-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kgoztRFqhiUVIx0Ld4v4-68" target="kgoztRFqhiUVIx0Ld4v4-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-68" value="REPL" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kgoztRFqhiUVIx0Ld4v4-71" target="kgoztRFqhiUVIx0Ld4v4-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="960" />
+              <mxPoint x="260" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-71" value="DoDC serial IO" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;jumpStyle=arc;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kgoztRFqhiUVIx0Ld4v4-74" target="kgoztRFqhiUVIx0Ld4v4-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-74" value="BLE serial" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-75" value="Socket sender" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="890" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-78" value="DMX/RDM" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-79" value="USB" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="1090" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kgoztRFqhiUVIx0Ld4v4-80" value="Update node props" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="990" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
