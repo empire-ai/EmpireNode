@@ -23,6 +23,10 @@ _current_rgbw = (0,0,0,0)
 target_rgbw = (0,0,0,0)
 steps = 50
 last_render = 0
+_exception = None
+speed = 1000
+delay = 1
+shape = "sin"
 
 #enable all
 machine.Pin(27, machine.Pin.OUT, value=1)
@@ -54,8 +58,8 @@ def hw_update(caller):
     '''
     Timer IRQ event to update all HW raleated IOs for properties
     '''
-    global target_rgbw, _vector_rgbw, _current_rgbw, last_render
-    #_t_start = time.ticks_ms()
+    global target_rgbw, _vector_rgbw, _current_rgbw, last_render, _exception
+    #_t_start = time.ticks_us()
     out = []
     for i in range(4):
         out.append(_interpolate_led_channel(i))
@@ -63,30 +67,30 @@ def hw_update(caller):
     try:
         white.duty(out[3])
     except Exception as e:
-        print(str(out))
-        print(e)
+        #check for an exeption in local variable.
+        #Otherwise print is called every 5ms messing up Your REPL promt
+        _exception = str(out)+"\n --- Exception --- \n"+str(e) 
         
     _current_rgbw = tuple(out)
-    time.sleep_ms(2)
-    #_t_end = time.ticks_ms()
-    # 0 last_renderder = time.ticks_diff(_t_start,_t_end)
+    #_t_end = time.ticks_us()
+    #last_render = time.ticks_diff(_t_end,_t_start)
      
 def target_set(color_in):
     global target_rgbw, _vector_rgbw, _current_rgbw, steps, last_render
-    _t_start = time.ticks_ms()
+    #_t_start = time.ticks_ms()
     target_rgbw = color_in
     out = [] 
     for i in range(4):
         val = int((color_in[i]-_current_rgbw[i])/steps)
-        # if val is below 1 int cast will remove it so i just hardcoded it to 1
+        # to accomodate the codevalues that will be rounded close to zero
         if val == 0:
-            val = color_in[i]-_current_rgbw[i]-abs(color_in[i]-_current_rgbw[i])
+            val = color_in[i]
             
         out.append(val)
         
     _vector_rgbw = tuple(out)
-    _t_end = time.ticks_ms()
-    last_render = time.ticks_diff(_t_start,_t_end)
+    #_t_end = time.ticks_ms()
+    #2ms last_render = time.ticks_diff(_t_start,_t_end)
 
 #step size
 #min step size
@@ -95,8 +99,24 @@ def target_set(color_in):
 tim = machine.Timer(2)
 tim.init(period=5,mode=machine.Timer.PERIODIC,callback=hw_update)
 
-    
-import uasyncio
+import math    
+import _thread
+
+def sin_float():
+    global speed, delay, shape
+    while(True):
+        if speed > 0:
+            if shape=="sin":
+                float_func = int(math.sin(time.ticks_ms()/speed)*1023+1023) >> 1
+            if shape=="square":
+                float_func = int(math.sin(time.ticks_ms()/speed)+1)*1023
+        
+            target_set((float_func,float_func,float_func,float_func))
+        else:
+            time.sleep_ms(3)
+        time.sleep_ms(delay)    
+        
+_thread.start_new_thread(sin_float, ())
 
 
     
