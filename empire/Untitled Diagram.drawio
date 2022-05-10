@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T06:56:06.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Gb0SXADFAz05CMYqNhIV" version="16.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T07:26:17.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="G1pk6WoJlzvhGD_buuDy" version="16.2.0" type="github">
   <diagram id="UTL9oAtbc97huWoyyTnZ" name="Page-1">
-    <mxGraphModel dx="1578" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1453" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -562,22 +562,29 @@
         <mxCell id="6gGuHzRQzGazjfxGGEVp-222" value="&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;All nodes in the network are adressable by tags system. if any of the tag strings match, this node will respond or execute the sent command&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="470" y="990" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6gGuHzRQzGazjfxGGEVp-225" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gGuHzRQzGazjfxGGEVp-224" target="6gGuHzRQzGazjfxGGEVp-108">
+        <mxCell id="6gGuHzRQzGazjfxGGEVp-225" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gGuHzRQzGazjfxGGEVp-224" target="6gGuHzRQzGazjfxGGEVp-108">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="450" y="1103" />
               <mxPoint x="620" y="1103" />
               <mxPoint x="620" y="1035" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6gGuHzRQzGazjfxGGEVp-224" value="&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Hardware update loop, ie. button states, LED output, SPI, GPIO to update node parameters.&lt;br&gt;Set up in main.py and per device - not meant to be changed during runtime.&amp;nbsp;&lt;br&gt;If HW change is is detected reboot is proffered&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="320" y="990" width="130" height="150" as="geometry" />
+        <mxCell id="6gGuHzRQzGazjfxGGEVp-224" value="&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Hardware update loop, ie. button states, LED output, SPI, GPIO to update node parameters.&lt;br&gt;Set up in main.py and per device - not meant to be changed during runtime.&amp;nbsp;&lt;br&gt;If HW change is is detected reboot is preferred.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;If the device does not have hardware the screen objects, simulation and other nodes main purpose code&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="990" width="130" height="230" as="geometry" />
         </mxCell>
         <mxCell id="6gGuHzRQzGazjfxGGEVp-227" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6gGuHzRQzGazjfxGGEVp-226" target="6gGuHzRQzGazjfxGGEVp-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gGuHzRQzGazjfxGGEVp-226" value="&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;As parameters are runtime changeable all the updating and logic will be added to the sw_update stack. This stack is iterated in the main loop&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="470" y="1110" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6gGuHzRQzGazjfxGGEVp-229" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6gGuHzRQzGazjfxGGEVp-228" target="6gGuHzRQzGazjfxGGEVp-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gGuHzRQzGazjfxGGEVp-228" value="&lt;p&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Properties object stack to keep all the properties data and event handling&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1210" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
