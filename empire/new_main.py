@@ -102,21 +102,20 @@ tim.init(period=5,mode=machine.Timer.PERIODIC,callback=hw_update)
 import math    
 import _thread
 
-def sin_float():
+def sw_update():
     global speed, delay, shape
     while(True):
         if speed > 0:
-            if shape=="sin":
-                float_func = int(math.sin(time.ticks_ms()/speed)*1023+1023) >> 1
+            float_func = int(math.sin(time.ticks_ms()/speed)*1023+1023) >> 1
             if shape=="square":
-                float_func = int(math.sin(time.ticks_ms()/speed)+1)*1023
+                float_func = int(int(math.sin(time.ticks_ms()/speed)+1)*1023)
         
             target_set((float_func,float_func,float_func,float_func))
         else:
             time.sleep_ms(3)
         time.sleep_ms(delay)    
         
-_thread.start_new_thread(sin_float, ())
+_thread.start_new_thread(sw_update, ())
 
 
     
