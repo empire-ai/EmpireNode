@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T13:00:49.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oigmlQcg7ESp9-bugucp" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T13:14:28.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0fJu9zNxbEBSl1IeqwLe" version="20.0.4" type="github">
   <diagram id="UTL9oAtbc97huWoyyTnZ" name="Page-1">
     <mxGraphModel dx="2554" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -342,7 +342,7 @@
         <mxCell id="glC73n-N2dMUQhjcY6fc-7" value="SYNC exec (Hw update use timer)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="-445" y="1920" width="430" height="20" as="geometry" />
         </mxCell>
-        <UserObject label="Art-Net Object" link="https://github.com/empire-ai/EmpireNode/blob/main/empire/Empire_Object.py" id="glC73n-N2dMUQhjcY6fc-9">
+        <UserObject label="Art-Net Object" id="glC73n-N2dMUQhjcY6fc-9">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
             <mxGeometry x="110" y="750" width="120" height="30" as="geometry" />
           </mxCell>
@@ -520,7 +520,7 @@
         <mxCell id="wwri12M4P4pAhS-KatHB-21" value="Execute all prop updates" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="-220" y="1480" width="120" height="40" as="geometry" />
         </mxCell>
-        <UserObject label="Node Raw" link="https://github.com/empire-ai/EmpireNode/blob/main/empire/Empire_Object.py" id="wwri12M4P4pAhS-KatHB-22">
+        <UserObject label="Node Raw" id="wwri12M4P4pAhS-KatHB-22">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
             <mxGeometry x="110" y="1090" width="120" height="30" as="geometry" />
           </mxCell>
@@ -604,6 +604,53 @@
         </mxCell>
         <mxCell id="wwri12M4P4pAhS-KatHB-45" value="STRING" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="1280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Node Thread" id="wwri12M4P4pAhS-KatHB-48">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+            <mxGeometry x="110" y="1400" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="wwri12M4P4pAhS-KatHB-49" value="__init__" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-50" value="STRING" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-51" value="get" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-52" value="function" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-53" value="set" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-54" value="function" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-55" value="STRING" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-56" value="function" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-57" value="_checksum" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-58" value="Int" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-59" value="_protocol" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-60" value="Int" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1560" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-61" value="payload" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1590" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-62" value="STRING" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1590" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
