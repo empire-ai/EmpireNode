@@ -76,9 +76,11 @@ a new node is created
 __version__ = 0.001
 __author__ = "empire-ai"
 
-class node:
+import empire_object
+
+class node(empire_object):
 '''
-One Emprie Node device, acts as IO interface fro robotics
+One Emprie Node device, acts as IO interface for robotics
 '''
     _name = "empty"
     _tags = []
