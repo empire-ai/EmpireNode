@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T12:43:55.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hp6gHFC5mfpwLfDvdaFb" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-12T12:44:36.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="WR14W-EIXoHcTBLZBGNp" version="20.0.4" type="github">
   <diagram id="UTL9oAtbc97huWoyyTnZ" name="Page-1">
     <mxGraphModel dx="2554" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -585,11 +585,11 @@
         <mxCell id="wwri12M4P4pAhS-KatHB-41" value="Int" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="1250" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wwri12M4P4pAhS-KatHB-42" value="&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Non zero value will enable counter functionality to discard too late packages&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="445" y="1230" width="200" height="50" as="geometry" />
+        <mxCell id="wwri12M4P4pAhS-KatHB-42" value="&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;CRC8 for the current package&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1240" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wwri12M4P4pAhS-KatHB-43" value="&lt;p&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;proto id&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=solid;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="445" y="1290" width="200" height="50" as="geometry" />
+          <mxGeometry x="445" y="1270" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wwri12M4P4pAhS-KatHB-44" value="payload" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="150" y="1280" width="80" height="30" as="geometry" />
@@ -597,8 +597,8 @@
         <mxCell id="wwri12M4P4pAhS-KatHB-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="wwri12M4P4pAhS-KatHB-45" target="6gGuHzRQzGazjfxGGEVp-233">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="1360" />
-              <mxPoint x="670" y="1360" />
+              <mxPoint x="280" y="1330" />
+              <mxPoint x="670" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
