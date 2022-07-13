@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T07:19:19.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="aK4fy_5VO0fqW28cyd5I" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T07:21:08.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EEj4T_I038kKmoSmGcUL" version="20.0.4" type="github">
   <diagram id="UTL9oAtbc97huWoyyTnZ" name="Page-1">
     <mxGraphModel dx="2980" dy="1231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -814,6 +814,12 @@
         </mxCell>
         <mxCell id="wwri12M4P4pAhS-KatHB-142" value="OBJECT" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="550" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-143" value="list_len" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="540" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wwri12M4P4pAhS-KatHB-144" value="Int" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="540" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
