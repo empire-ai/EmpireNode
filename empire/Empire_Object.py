@@ -1,5 +1,5 @@
-class Empire_Object:
-    """EMPIRE OBJECT
+class empire_object:
+    """empire_object
 
     The root node of all the Python objects necessary to describe and
     operate autonomous iot networked system to build complete
