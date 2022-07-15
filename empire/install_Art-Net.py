@@ -10,7 +10,7 @@ sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 #self.sock.bind(('0.0.0.0',6454))
 
 
-def send_q():
+def artnet_send_q():
     global out_q
     if len(out_q):
         try:
@@ -20,5 +20,6 @@ def send_q():
         except Exception as e:
             print("ERROR: Socket error with exception: %s" % e)
 
-custom_thread = node_thread()
-custom_thread.task_list.append(send_q)
+input_thread = node_thread()
+input_thread.protocols = []
+input_thread.task_list.append(artnet_send_q)
