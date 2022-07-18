@@ -11,7 +11,13 @@ class ArtNet:
             print("REUSEADDR, did not work for OSX after binding other apps could not use the port:")
             print(e)
             self.sock.setsockopt(socket.SOL_SOCKET, socket.REUSEADDR, 1)
-
+    
+    def enable():
+        pass
+    
+    def disable():
+        pass
+    
     def update(self):
         if len(self.out_q):
         try:
