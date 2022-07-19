@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T10:19:04.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wLHHRGiJxbd5D7G9WUvL" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T10:20:14.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jtoyQ8H04XKffK4cC2kQ" version="20.1.1" type="github">
   <diagram id="UTL9oAtbc97huWoyyTnZ" name="Page-1">
     <mxGraphModel dx="2667" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -862,23 +862,28 @@
           <mxGeometry x="1095" y="740" width="130" height="140" as="geometry" />
         </mxCell>
         <UserObject label="io_plugion timing" id="fgCHay-eGDqj0Hwe6pgm-11">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#FF0000;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="1">
             <mxGeometry x="1390" y="720" width="120" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="device sync" id="fgCHay-eGDqj0Hwe6pgm-12">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#FF0000;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="1">
             <mxGeometry x="1390" y="750" width="120" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="temp logger sample" id="fgCHay-eGDqj0Hwe6pgm-13">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#FF0000;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="1">
             <mxGeometry x="1390" y="780" width="120" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="packet type list" id="fgCHay-eGDqj0Hwe6pgm-14">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#FF0000;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="1">
             <mxGeometry x="1390" y="810" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="adapt to io_plugin" id="fgCHay-eGDqj0Hwe6pgm-15">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#FF0000;strokeColor=#b85450;fillStyle=solid;" vertex="1" parent="1">
+            <mxGeometry x="700" y="1000" width="120" height="30" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
