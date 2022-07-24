@@ -76,26 +76,23 @@ a new node is created
 __version__ = 0.001
 __author__ = "empire-ai"
 
-import empire_object
 
-class node(empire_object):
-'''
-One Emprie Node device, acts as IO interface for robotics
-'''
-    _name = "empty"
-    _tags = []
-    _properties = []
+class node():
+    ''' One Emprie Node device, acts as IO interface for robotics
+    '''
+    def __init__(self, name:str="empty", tags:list=[]) -> None:
+        self.name = name
+        self.tags = tags
+        #self.properties = Properties()
     
     def _update_prop(self,prop_in):
-    '''
-    Updates specific property
-    '''
-    prop_in._update_()
+        ''' Updates specific property
+        '''
+
     
     def _update_(self):
-    '''
-    Updates entire Node properties in the node stack
-    '''
+        ''' Updates entire Node properties in the node stack
+        '''
         for prop in self._properties:
             self._update_prop(prop)
         pass

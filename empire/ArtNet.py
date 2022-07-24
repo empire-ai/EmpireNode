@@ -20,12 +20,12 @@ class ArtNet:
     
     def update(self):
         if len(self.out_q):
-        try:
-            sock.sendto(self.out_q[0], ('255.255.255.255', 6454))
-            print("sent: "+self.out_q[0].decode())
-            self.out_q = self.out_q[1:]
-        except Exception as e:
-            print("ERROR: Socket error with exception: %s" % e)
+            try:
+                sock.sendto(self.out_q[0], ('255.255.255.255', 6454))
+                print("sent: "+self.out_q[0].decode())
+                self.out_q = self.out_q[1:]
+            except Exception as e:
+                print("ERROR: Socket error with exception: %s" % e)
 
     def generate_header(self, op_code):
         '''
